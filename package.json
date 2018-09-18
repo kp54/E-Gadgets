@@ -4,7 +4,7 @@
   "description": "desktop gadgets platform",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "electron ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kp54/E-Gadgets/issues"
   },
-  "homepage": "https://github.com/kp54/E-Gadgets#readme"
+  "homepage": "https://github.com/kp54/E-Gadgets#readme",
+  "dependencies": {
+    "electron": "^2.0.9"
+  }
 }
